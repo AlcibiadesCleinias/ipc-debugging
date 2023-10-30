@@ -1,0 +1,15 @@
+node_modules
+.idea
+
+#Hardhat files
+cache
+artifacts
+
+typechain-types/
+
+.env
+*frontend-clients-dist/
+
+# Coverage
+coverage.json
+coverage
