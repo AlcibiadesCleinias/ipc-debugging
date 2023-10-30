@@ -1,2 +1,2 @@
 // Expand with more created tasks below.
-export * from "./faucet";
+export * from "./checkCallMethod";
