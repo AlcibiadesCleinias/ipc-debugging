@@ -27,6 +27,17 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
+      ipcsubnet: {
+          url: 'http://139.162.187.214:8545',
+          accounts: PRIVATE_KEYS,
+          chainId: 1404213532111849,
+      },
+      calibration: {  // Currently this network is use only for debugging.
+          url: 'https://api.calibration.node.glif.io/rpc/v1',
+          accounts: PRIVATE_KEYS,
+          chainId: 314159,
+          timeout: 1000000,  // recommended by IPC team.
+      },
     testnet: {
       url: process.env["TESTNET_RPC"] ?? "",
       accounts: PRIVATE_KEYS,
