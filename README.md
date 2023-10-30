@@ -115,7 +115,7 @@ deploy your contract:
 npx hardhat run scripts/deploy.ts --network localhost
 ```
 
-To check that hardhat task, [faucet.ts](tasks/faucet.ts), will transfer 1 eth 
+To check that hardhat task, [checkCallMethod.ts](tasks/checkCallMethod.ts), will transfer 1 eth 
 to provided address from **already deployed** contract, run the next command:
 
 ```sh
