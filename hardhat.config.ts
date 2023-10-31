@@ -30,7 +30,7 @@ const config: HardhatUserConfig = {
       ipcsubnet: {
           url: 'http://139.162.187.214:8545',
           accounts: PRIVATE_KEYS,
-          chainId: 1404213532111849,
+          chainId: 3522868364964899,
       },
       calibration: {  // Currently this network is use only for debugging.
           url: 'https://api.calibration.node.glif.io/rpc/v1',
